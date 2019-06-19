@@ -5,7 +5,14 @@ body {
     background: #d6d7d9;
     font-family: 'Raleway', sans-serif;
 }
- 
+
+.content{
+    max-width: 1033px;
+    margin: auto;
+    background: #d6d7d9;
+    padding: 10px;
+}
+
 div.ex1 {
     background-color: #d6d7d9;
     width: 1033px;
