@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    background: #d6d7d9;
+    font-family: 'Raleway', sans-serif;
+}
+ 
+div.ex1 {
+    background-color: #d6d7d9;
+    width: 1033px;
+    height: 260px;
+    overflow: auto;
+    text-align: justify;
+    font: 'Raleway', sans-serif;
+    font-color: #5C636A;
+    font-size: 12px;
+}
+
+.scrollable-element {
+    scrollbar-color: dark;
+}
