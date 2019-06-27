@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    background: #030c1f;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content{
+    max-width: 100%;
+    margin: auto;
+    background:#08204e;
+    padding: 10px;
+}
+
+div.ex1 {
+    background-color: #0b1834;
+    width: 100%;
+    height: 260px;
+    overflow: auto;
+    text-align: justify;
+    font: 'Raleway', sans-serif;
+    color:#eeeeee;
+    font-size: 12px;
+    white-space: normal;
+    padding-left: 0px;
+    line-break: 3;
+    margin:auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #030C1F;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #0B1834;
+  }
+
+  img.nichole {
+      border-radius:50%;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #030c1f; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0b2b4f; 
+  }
+
+  .collapsible {
+    background-color: #030C1F;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font: 'Raleway', sans-serif;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #0b1834;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    font: 'Raleway', sans-serif;
+    background-color: #0B1834;
+  }
